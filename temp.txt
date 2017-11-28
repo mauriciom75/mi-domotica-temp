@@ -1,0 +1,86 @@
+datos : dispositivos:
+    -
+        contr: 2
+        disp: 1
+        desc: 'Relé 1'
+    -
+        contr: 2
+        disp: 2
+        desc: 'Relé 2'
+    -
+        contr: 3
+        disp: 1
+        evtAcc: 152
+        desc: 'remoto boton2'
+    -
+        contr: 3
+        disp: 1
+        evtAcc: 153
+        desc: 'remoto boton3'
+eventoAccion:
+    -
+        contr: 3
+        disp: 1
+        evt: '152'
+    -
+        contr: 2
+        disp: 2
+        acc: '3'
+
+Prueba Bd :undefined
+Example app listening on port 3000! Joya!
+Conectado a Arduino
+1
+2
+3
+F2,
+cb, tengo que devolver status: 504 estado: 1
+ejecuto release.
+1
+2
+1
+2
+1
+2
+3
+F2,
+cb, tengo que devolver status: 504 estado: 1
+ejecuto release.
+Received: C2,3,201,,
+
+tipo:C
+valores ->2,3,201,,
+
+Datos Arduino : {"tipo":"C","valores":["2","3","201","","\n"]}
+3
+F2,
+cb, tengo que devolver status: 504 estado: 1
+ejecuto release.
+3
+F2,
+cb, tengo que devolver status: 504 estado: 1
+ejecuto release.
+Received: D2,1,0,Luz del pasillo,
+
+tipo:D
+valores ->2,1,0,Luz del pasillo,
+
+Datos Arduino : {"tipo":"D","valores":["2","1","0","Luz del pasillo","\n"]}
+Received: D2,2,0,rele 2 sin uso,
+
+tipo:D
+valores ->2,2,0,rele 2 sin uso,
+
+Datos Arduino : {"tipo":"D","valores":["2","2","0","rele 2 sin uso","\n"]}
+Received: D2,3,0,Boton pulsador pasi,
+
+tipo:D
+valores ->2,3,0,Boton pulsador pasi,
+
+Datos Arduino : {"tipo":"D","valores":["2","3","0","Boton pulsador pasi","\n"]}
+Received: FIN
+
+tipo:F
+valores ->IN
+
+Datos Arduino : {"tipo":"F","valores":["IN\n"]}

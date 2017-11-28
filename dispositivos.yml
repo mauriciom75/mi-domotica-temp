@@ -1,0 +1,28 @@
+dispositivos:
+    -
+        contr: 2
+        disp: 1
+        desc: 'Relé 1'
+    -
+        contr: 2
+        disp: 2
+        desc: 'Relé 2'
+    -
+        contr: 3
+        disp: 1
+        evtAcc: 152
+        desc: 'remoto boton2'
+    -
+        contr: 3
+        disp: 1
+        evtAcc: 153
+        desc: 'remoto boton3'
+eventoAccion:
+    -
+        contr: 3
+        disp: 1
+        evt: '152'
+    -
+        contr: 2
+        disp: 2
+        acc: '3'
